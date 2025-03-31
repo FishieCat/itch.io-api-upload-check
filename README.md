@@ -17,7 +17,7 @@ Guide on how to check details of game uploads using itch.io's fee API key
    > ![API key you know](https://github.com/user-attachments/assets/375af3e8-6e8d-49b0-bbcc-5d1deff7467e)
    >
    >  ![game_id you know](https://github.com/user-attachments/assets/37680930-e5f3-4450-b612-f7e90005de69)
-6. The result ("Pretty-print" recommended) will show you creation/update dates. Looks like `updated_at` gets updated when the `created_at` upload finishes.
+6. The result ("Pretty-print" recommended) will show you creation/update dates. Looks like `updated_at` gets updated when the `created_at` upload finishes. (It also gets updated if the file gets replaced, however often uploaders on itch first delete the old version and then upload the new one anew)
    > ![api response you see](https://github.com/user-attachments/assets/620b6d8d-65de-4e91-90ed-e2af33deb7cb)
 
 
